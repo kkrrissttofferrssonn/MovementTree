@@ -40,7 +40,7 @@
       "description": "Diet consists solely of plant matter",
       "children": [
         {
-          "id": 7,
+          "id": 7, 
           "name": "Angus Cattle",
           "type": "Organism",
           "description": "Scottish breed of black cattle",
