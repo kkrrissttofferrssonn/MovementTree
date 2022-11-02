@@ -1,0 +1,8350 @@
+{
+  "1Dimensional": {
+    "1DimensionalAbsorb": {
+      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement",
+      "MovementRank": {
+        "1": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "1DimensionalDynamicMovement": {
+      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalDynamicMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "1DimensionalStaticMovement": {
+      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalStaticMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "2DimensionalMovement": {
+    "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "2DimensionalAbsorb": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "2Dimensional_Dynamic": {
+      "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "2Dimensional_Static": {
+      "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "3Dimensional": {
+    "3DimensionalAbsorb": {
+      "MovementNamespace": "LimitedDimensionMovement\\3DimensionalMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "3Dimensional_Dynamic": {
+      "MovementNamespace": "LimitedDimensionMovement\\3DimensionalMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "3Dimensional_Static": {
+      "MovementNamespace": "LimitedDimensionMovement\\3DimensionalMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "4Dimensional": {
+    "4Dimensional_Dynamic": {
+      "MovementNamespace": "LimitedDimensionMovement\\4DimensionalMovement",
+      "MovementRank": {
+        "1": ""
+      },
+      "MovementPurpose": ["Timing"],
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "4Dimensional_Static": {
+      "MovementNamespace": "LimitedDimensionMovement\\4DimensionalMovement",
+      "MovementRank": {
+        "1": ""
+      },
+      "MovementPurpose": ["Balance", "MinimizeMomentum"],
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Abduction": {
+    "ArmAbduction": {
+      "ArmHorizontalAbduction": {
+        "MovementNamespace": "ArmMovement\\ArmHorizontalAbduction",
+        "MovementRank": {
+          "1": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["Stemming", "ArmArch"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmVerticalAbduction": {
+        "MovementNamespace": "PrimaryMovement\\Abduction",
+        "MovementRank": {
+          "1": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegAbduction": {
+      "LegHorizontalAbduction": {
+        "MovementNamespace": "PrimaryMovement\\Abduction",
+        "MovementRank": {
+          "1": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["Stemming", "LegArch", "LegExpansion", "LegProp"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegVerticalAbduction": {
+        "MovementNamespace": "PrimaryMovement\\Abduction",
+        "MovementRank": {
+          "1": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "FingerAbduction": {
+      "MovementNamespace": "PrimaryMovement\\Abduction",
+      "MovementRank": {
+        "1": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Pinch", "Grip"],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Abduction_Dynamic": {
+      "MovementNamespace": "PrimaryMovement\\Abduction",
+      "MovementRank": {
+        "1": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Abduction_Static": {
+      "MovementNamespace": "PrimaryMovement\\Abduction",
+      "MovementRank": {
+        "1": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Absorb": {
+    "ArmAbsorb": {
+      "MovementNamespace": "SecondaryMovement\\Absorb",
+      "MovementRank": {
+        "2": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyAbsorb": {
+      "MovementNamespace": "SecondaryMovement\\Absorb",
+      "MovementRank": {
+        "2": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "BodyRotateAbsorb": {
+        "MovementNamespace": "SecondaryMovement\\Absorb",
+        "MovementRank": {
+          "2": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "BodyTwistAbsorb": {
+        "MovementNamespace": "SecondaryMovement\\Absorb",
+        "MovementRank": {
+          "2": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["BodyTwist"],
+        "AnteMovement": ["LateralDyno.Catch"],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegAbsorb": {
+      "MovementNamespace": "LegMovement\\LegAbs",
+      "MovementRank": {
+        "2": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["BodyAbsorb"],
+      "Submovement": [
+        "LegEccentricFlexion",
+        "LegEccentricExtension",
+        "LegEccentricAbduction",
+        "LegEccentricAdduction",
+        "HipEccentricFlexion",
+        "HipEccentricExtension"
+      ],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "LegWhipAbsorb": {
+        "MovementNamespace": "SecondaryMovement\\Absorb",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegArcAbsorb": {
+        "MovementNamespace": "SecondaryMovement\\Absorb",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["LegAbsorb"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegKneeUpAbsorb": {
+        "MovementNamespace": "SecondaryMovement\\Absorb",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["LegAbsorb"],
+        "Submovement": ["LegFlexion", "LegCrunch"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegTangentAbsorb": {
+        "MovementNamespace": "Absorb\\LegAbsorb\\LegTangentAbsorb",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["LegAbsorb"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "HeadAbsorb": {
+      "MovementNamespace": "Absorb\\HeadAbsorb",
+      "MovementPurpose": ["Absorb"],
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Accurate": {
+    "MovementNamespace": "MovementProperty\\Accurate",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Aggressive": {
+    "MovementNamespace": "MovmentProperty\\Aggressive",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Align": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": ["Balance", "OptimizeFriction", "Posture"],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "LegAlign": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["LegProp"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmAlign": {
+      "MovementNamespace": "Align\\ArmAlign",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["StraightArm", "ArmProp", "ArmArch"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyAlign": {
+      "MovementNamespace": "Align\\BodyAlign",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["BodyStack", "BodyArch"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "SpineAlign": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["SpineStack"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": ["Proprioception"]
+    }
+  },
+  "Arch": {
+    "ArmArch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "PostMovement": ["HandFootSwap"]
+    },
+    "LegArch": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["ArmRest"],
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyArch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Stemming"],
+      "Submovement": ["BodyRest"],
+      "AnteMovement": ["FallOver"],
+      "Postmovement": [],
+      "Neuro": [],
+      "BodyAnteriorArch": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["BodyArch"],
+        "Submovement": [],
+        "Antemovement": ["FallOver"],
+        "Postmovement": ["HandFootMatch"],
+        "Neuro": []
+      }
+    }
+  },
+  "ArmAboveShoulder": {
+    "ArmAboveShoulderCatch": {
+      "MovementNamespace": "Position\\ArmPosition\\ArmAboveShoulder",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["ArmVerticalReach"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Position": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "1": ""
+    },
+    "MovementPurpose": {},
+    "Time": {
+      "Speed": {},
+      "Rhythm": {}
+    },
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "ArmBelowShoulder": {
+    "ArmBelowShoulder_Dynamic": {
+      "MovementNamespace": "Position\\ArmPosition\\",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmBelowShoulder_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Asymmetric": {
+    "Asymmetric_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Asymmetric_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Balance": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [
+      "EccentricContraction",
+      "PositionAdjustment",
+      "BodyStack",
+      "SpineStack"
+    ],
+    "AnteMovement": ["Absorb"],
+    "PostMovement": ["Reach"]
+  },
+  "Brachiation": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [
+      "ArmSwing",
+      "Catch",
+      "Absorb",
+      "Redirect",
+      "LegSwing",
+      "BodyAbsorb",
+      "LegAbsorb",
+      "SpaceFoot",
+      "BodyWave",
+      "BodyTwist",
+      "LegTwist",
+      "LegTwist"
+    ],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "AnteriorBrachiation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "PosteriorBrachiation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LateralBrachiation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "RicochetBrachiation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["BodyRedirect", "LegSwing", "LegAbsorb"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "180Brachiation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["BodyRotation", "ArmRotation", "ArmSwing", "LegSwing"],
+      "180Brachiation_Dynamic": {
+        "MovementNamespace": "Brachiation\\180Brachiation\\180StaticBrachiation",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "180Brachiation_Static": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "BrushMovement": {
+    "MovementNamespace": "ToolMovement\\BrushMovement",
+    "MovementPurpose": ["To remove chalk"],
+    "Supermovement": ["Rest"],
+    "Submovement": ["Pinch", "CrimpPinch", "LookAt"],
+    "Antemovement": [],
+    "PostMovement": ["ChalkBlow"],
+    "Brush_Dynamic": {
+      "MovementNamespace": "ToolMovement\\BrushMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Brush_Static": {
+      "MovementNamespace": "ToolMovement\\BrushMovement",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Buckle": {
+    "ArmBuckle": {
+      "MovementNamespace": "ArmMovement\\ArmBuckle",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [
+        "ArmEccentricExtension",
+        "ArmRotation",
+        "ArmConcentricExtension"
+      ],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegBuckle": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["LegEccentricExtension", "LegConcentricExtension"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerBuckle": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["FingerEccenticExtension"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Bump": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "2": ""
+    },
+    "MovementPurpose": {},
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "ArmBump": {
+      "MovementNamespace": "ArmMovement\\ArmBump",
+      "MovementRank": {
+        "2": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "ArmBump_Dynamic": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmStaticBump": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegBump": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DynamicBump": {
+      "MovementNamespace": "Bump\\DynamicBump",
+      "MovementRank": {
+        "2": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Bump_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Carabiner": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Catch": {
+    "ArmCompressionCatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "AnteMovement": ["DynamicMovement"],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegCompressionCatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "AnteMovement": ["DynamicMovement"],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandCatch": {
+      "PinchCatch": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "AnteMovement": ["DynamicMovement"],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "FootCatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["HeelHook", "ToeHook"],
+      "AnteMovement": [
+        "DynamicMovement",
+        "HangingFootTransfer",
+        "FootStab",
+        "LegSwing"
+      ],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ToeCatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["ToeHook"],
+      "AnteMovement": ["DynamicMovement", "LegSwing"],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Chalk": {
+    "ChalkUp": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ChalkBlow": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "AnteMovement": ["Brush", "ChalkUp"],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ChalkTicMark": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Chalk_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Chalk_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Circumduction": [
+    {
+      "MovementName": "ArmCircumduction",
+      "MovementNamespace": "ArmMovement\\ArmCircumduction",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    {
+      "MovementName": "LegCircumduction",
+      "MovementNamespace": "LegMovement\\LegCircumduction",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {
+        "Redirect": ""
+      },
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": ["LegWhip"]
+    },
+    {
+      "MovementName": "BodyCircumduction",
+      "MovementNamespace": "BodyMovement\\BodyCircumduction",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {
+        "Absorb": ""
+      },
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Brachiation", "BodyAbsorb"],
+      "Submovement": ["ArmFlexion", "ArmExtension"],
+      "Antemovement": [],
+      "Postmovement": ["BodyWhip"]
+    }
+  ],
+  "Clamp": {},
+  "Clipping": {
+    "Clipping_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Clipping_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Compression": {
+    "ArmArmCompression": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["ArmPull"],
+      "Antemovement": [],
+      "PostMovement": ["LegMovement"]
+    },
+    "LegLegCompression": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmLegCompression": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmChestCompression": {
+      "AlsoKnownAs": "Hug",
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Compression_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Compression_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Curve": {
+    "Curve_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Curve_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Deadpoint": {
+    "VerticalDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HorizontalDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DiagonalDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "AnteriorDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "PosteriorDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LateralDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DownDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Deflection": {
+    "TwistDeflection": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "AngularDeflection": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "CurvedDeflection": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DownDeflection": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "UpDeflection": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "OverDeflection": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Delicate": {
+    "Delicate_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Delicate_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Distal": {},
+  "Down": {
+    "DownClimb": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DownDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Drop": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["MuscleRelax"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "ArmDrop": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegDrop": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyDrop": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Dynamic": {},
+  "Dyno": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["Launch", "Catch", "Absorb"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "VerticalDyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HorizontalDyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DownDyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "DiagonalDyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "PosteriorDyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "180Dyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "90Dyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Expansion": {
+    "Expansion_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Expansion_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Extension": {
+    "ArmExtension": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["TricepContraction"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "ArmConcentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmEccentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegExtension": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "LegEccentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegConcentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "FingerExtension": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["FingerExtensorContraction"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "FingerConcentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "FingerEccenticExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "SpineExtension": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "SpineConcentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "SpineEccentricExtension": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "NeckExtension": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Fall": {
+    "ControlledFall": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["Landing", "Absorb"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "UncontrolledFall": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "TwistFall": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FallError": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "FallStraightArmError": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["StraightArm"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Figure8": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["LegHook", "ArmHook", "JugGrip"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Figure9": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["LegHook", "ArmHook"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Flag": {
+    "ArmFlag": {
+      "ArmAnteriorFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": ["ArmAbduction"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": [],
+        "ArmAnteriorFlag.HorizontalCornerWall": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      },
+      "ArmPosteriorFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmAboveFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmBelowFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmLateralFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmAbductionFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegFlag": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["Balance"],
+      "Supermovement": [],
+      "Submovement": [],
+      "LegPosteriorFlag": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegAnteriorFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegLateralFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegPosteriorCrossFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegAnteriorCrossFlag": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Balance"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Flexion": {
+    "ArmConcentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmEccentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegConcentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegEccentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerConcentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerEccentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "NeckFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HipContcentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["LegCrunch"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HipEccentricFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["LegAbsorb"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["MuscleActivation"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "Flexion_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Flexion_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Fluid": {
+    "Fluid_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Fluid_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "FootAboveShoulder": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "FootBelowHip": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Grip": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["FingerFlexion", "FingerAbduction"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "JugGrip": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "2FingerGrip": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "3FingerGrip": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "4FingerGrip": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "HandAboveShoulder": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "HandBelowShoulder": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "HandDeviation": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": ["WristHook"],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "RadialDeviation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "UlnarDeviation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Hang": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "ArmHang": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["ArmRest"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegHang": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["LegRest"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Hook": {
+    "FingerHook": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmHook": {
+      "WristHook": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "AnteMovement": ["ArmPump"],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ElbowHook": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ShoulderHook": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegHook": {
+      "KneeHook": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "AnkleHook": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": [],
+        "ToeHook": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": ["FootDorsalFlexion"],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "HeelHook": {
+          "MovementNamespace": "",
+          "MovementPurpose": ["ToKeepHipsClose"],
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": [],
+          "HeelVerticalHook": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": [],
+            "HeelVerticalHook.AboveHips": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            },
+            "HeelVerticalHook.BelowHips": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            },
+            "HeelHorizontalHook": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            },
+            "HeelHorizontalHook.PushIntoWall": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": ["LegLegCompression", "LegArmCompression"],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            },
+            "HeelHorzontalHook.PullAwayFromWall": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            }
+          },
+          "HorizontalHeelHook": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          }
+        }
+      },
+      "Straddle": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["Rest"],
+        "Supermovement": ["TopOut"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Horizontal": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "IsometricContraction": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "ArmIsometricContraction": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegIsometricContraction": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["LegLock"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "SpineIsometricContraction": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["BodyLock"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Jam": {
+    "Jam_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Jam_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyJam": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandJam": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootJam": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "HeelToeCam": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegJam": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmJam": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Kneebar": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["HipConcentricFlexion", "PlantarFlexion"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "AnteriorKneebar": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["HipConcentricFlexion", "PlantarFlexion"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LateralKneebar": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "2_AnteriorKneebar": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Lateral": {
+    "Lateral_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Lateral_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Lean": {
+    "Lean_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Lean_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Lever": {
+    "ArmLever": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegLever": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["ToeHook", "KneeHook"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyLever": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Light": {
+    "Light_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Light_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Lock": {
+    "ArmLock": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["SupportingArm"],
+      "Supermovement": [],
+      "Submovement": ["ArmIsometricContraction"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegLock": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["LegIsometricContraction"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerLock": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["FingerHook", "HandJam"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyLock": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["FrontLever"],
+      "Submovement": ["SpineIsometricContraction"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Mantle": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["HighFoot"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Match": {
+    "Match_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Match_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandMatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootMatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandFootFootMatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandHandFootMatch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandHandFootFootMatch": {
+      "AlsoKnownAs": "4PointMatch",
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Medial": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "MovementNamespace": "",
+  "MovementPurpose": {
+    "Absorb": {
+      "Event": ""
+    },
+    "Redirect": {},
+    "Initiation": {}
+  },
+  "Nudge": {
+    "Nudge_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Nudge_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootNudge": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandNudge": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerNudge": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HipNudge": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "OptimizeFriction": {
+    "OptimizeToPerpendicular": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "OptimizeToParallel": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "OptimizeFriction_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "OptimizeFriction_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Overlap": {
+    "FootOverlap": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandOverlap": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerOverlap": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "2FingerOverlap": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "3FingerOverlap": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "4FingerOverlap": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Passive": {
+    "Passive_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Passive_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Pinch": {
+    "ThumbPinch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "CrimpPinch": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Pivot": {
+    "FingerPivot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "PalmPivot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootPivot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "HeelPivot": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ToePivot": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "HipPivot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "KneePivot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HeadPivot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+
+  "Positioning": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Positioning_Dynamic": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Positioning_Static": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Posture": {
+    "Posture_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Posture_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Precise": {
+    "Precise_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Precise_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "ProjectileMotion": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "ProjectileMotion_Dynamic": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Prop": {
+    "LegProp": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "2_LegProp": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "ArmProp": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "2_ArmProp": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "FingerProp": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "2_FingerProp": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Proximal": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Pull": {
+    "Pull_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "2_Pull_Dynamic": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Pull_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "2_Pull_Static": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmPull": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": [],
+        "ArmDistalPull": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "ArmMedialPull": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      },
+      "LegPull": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": [],
+        "LegMedialPull": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "LegDistalPull": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      }
+    }
+  },
+  "Pump": {
+    "ArmPump": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["2_Asymmetric_ArmPump"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegPump": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Push": {
+    "Push_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Push_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmPush": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "ArmDistalPush": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["ArmExpansion"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmMedialPush": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["ArmCompression"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegPush": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Launch"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Reach": {
+    "MovementNamespace": "Reach",
+    "MovementPurpose": ["Advance"],
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "PostMovement": ["Catch"],
+    "ArmReach": {
+      "ArmArcReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Catch"]
+      },
+      "ArmLateralReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Catch"]
+      },
+      "ArmMedialReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Catch"]
+      },
+      "ArmDownReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["DownClimb"],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Undercling"]
+      },
+      "ArmUpReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Catch"]
+      },
+      "ArmPosteriorReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Catch"]
+      },
+      "ArmDistalReach": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "PostMovement": ["Catch"]
+      },
+      "ArmCrossReach": {
+        "ArmCrossArmReach": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "PostMovement": ["Catch"],
+          "ArmCrossArmAboveReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "PostMovement": ["Catch"],
+            "ArmCrossArmAbovePosteriorReach": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "PostMovement": ["Catch"]
+            },
+            "ArmCrossArmAboveAnteriorReach": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "PostMovement": ["Catch"]
+            }
+          },
+          "ArmCrossLegReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "ArmCrossMidlineReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          }
+        },
+        "ArmRadialReach": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "LegReach": {
+          "LegRadialReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": ["HangingFootTransfer"],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegArcReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegLateralReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegMedialReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegDownReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegUpReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegPosteriorReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegDistalReach": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "LegCrossReach": {
+            "LegCrossLegReach": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            },
+            "LegCrossArmReach": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            },
+            "LegCrossMidlineReach": {
+              "MovementNamespace": "",
+              "MovementRank": {
+                "": ""
+              },
+              "MovementPurpose": {},
+              "Time": {
+                "Speed": {},
+                "Rhythm": {}
+              },
+              "Supermovement": [],
+              "Submovement": [],
+              "Antemovement": [],
+              "Postmovement": [],
+              "Neuro": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "ReciprocalInhibition": {
+    "ReciprocalInhibition_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ReciprocalInhibition_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Relative": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Relative_Dynamic": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Relative_Static": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Rest": {
+    "Rest_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Rest_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["Shake"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "ArmRest": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["ArmShake"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegRest": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["LegShake"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "RockOver": {
+    "LegRockOver": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmRockOver": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "RockOver_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "RockOver_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Roll": {
+    "FootRoll": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [
+        "FootSwap",
+        "LegRockUp",
+        "LegRockOver",
+        "Mantle",
+        "CalfRaise"
+      ],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerRoll": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["CrimpGrip", "HandSwap"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandRoll": {
+      "WristRoll": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Rope": {
+    "Rope_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Rope_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "RopeBite": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Clipping", "RopeSlacken"],
+      "Submovement": [],
+      "Antemovement": ["RopeGrip"],
+      "Postmovement": ["RopeGrip", "CarabinerClip"]
+    }
+  },
+  "Rotation": {
+    "ArmRotation": {
+      "ArmInternalRotation": {
+        "MovementNamespace": "ArmMovement\\ArmRotation\\ArmInternalRotation",
+        "MovementRank": {
+          "1": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["ArmCompression", "TwistLock"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmExternalRotation": {
+        "MovementNamespace": "ArmMovement\\ArmRotation\\ArmExternalRotation",
+        "MovementRank": {
+          "1": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "LegRotation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "LegInternalRotation": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "FootRotation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "FootPronation": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "FootSupination": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "HandRotation": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "HandSupination": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "HandPronation": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Run": {
+    "MovementNamespace": "BodyMovmement\\Run",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": ["RunJump", "RunLanding"],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "ScapulaMovement": {
+    "MovementNamespace": "ArmMovement\\ScapulaMovement",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "ScapulaProtraction": {
+      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaProtraction",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ScapulaElevation": {
+      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaElevation",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ScapulaRetraction": {
+      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaRetraction",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ScapulaDepression": {
+      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaDepression",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ScapulaUpRotation": {
+      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaUpRotation",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ScapulaDownRotation": {
+      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaDownRotation",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "ShakeOut": {
+    "ArmShake": {
+      "MovementNamespace": "ArmMovement\\ArmShake",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["ArmRest", "BodyRest"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegShake": {
+      "MovementNamespace": "LegMovement\\LegShake",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {
+        "ArmPump": "ToReduceArmPump"
+      },
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["LegRest", "BodyRest"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Sit": {
+    "MovementNamespace": "BodyMovement\\Sit",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": ["BodyRest", "RouteReading"],
+    "Submovement": ["LegFlexion", "LegSmear", "HipFlexion"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Slide": {
+    "HandSlide": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [
+        "HandSwap",
+        "HandFootSwap",
+        "FeelingForHold",
+        "ArmProp"
+      ],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FingerSlide": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["FootSwap"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootSlide": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Slip": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Time": {
+      "Speed": {},
+      "Rhythm": {}
+    },
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "Children": [
+      {
+        "MovementName": "FootSlip",
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      {
+        "MovementName": "HandSlip",
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    ]
+  },
+  "Slot": {
+    "Slot_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Slot_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandSlot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootSlot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["HangingFootTransfer", "FootJam"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegSlot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["HangingFootTransfer", "LegJam"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmSlot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["ArmJam"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodySlot": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Smear": {
+    "HandSmear": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "FootSmear": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegSmear": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HipSmear": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HeadSmear": {
+      "ChinSmear": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "CrownSmear": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Smooth": {
+    "Smooth_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Smooth_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Space": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Splits": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "AnteriorSplits": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LateralSplits": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Spotting": {
+    "Spotting_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Spotting_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Stab": {
+    "FootStab": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "HandStab": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Stabilizer": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Stack": {
+    "MovementNamespace": "Alignment\\Stack",
+    "MovementPurpose": ["Balance", "Rest"],
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "SpineStack": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["Balance"],
+      "Supermovement": [],
+      "Submovement": ["CoreActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegStack": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmStack": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["Balance"],
+      "Supermovement": ["ArmBelowRotation"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyStack": {
+      "AlsoKnownAs": ["Stand", "Standing"],
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Stand": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["LegExtension"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "Children": [
+      {
+        "ToStand": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      }
+    ]
+  },
+  "Static": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Subtle": {
+    "Subtle_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Subtle_Static": {}
+  },
+  "Swap": {
+    "Children": [
+      {
+        "MovementName": "HandSwap",
+        "MovementNamespace": "ArmMovement\\HandMovement\\HandSwap",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": [],
+        "Children": [
+          {
+            "MovementName": "PianoSwap",
+            "MovementNamespace": "ArmMovement\\HandMovement\\HandSwap\\PianoSwap",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          }
+        ]
+      },
+      {
+        "FootSwap": {
+          "FootHopSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "FootSmearSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "FootRollSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          }
+        },
+        "FingerSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "HandFootSwap": {
+          "HandHeelSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "HandToeSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          }
+        },
+        "HandHipSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "FootHandSwap": {
+          "HeelHandSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          },
+          "ToeHandSwap": {
+            "MovementNamespace": "",
+            "MovementRank": {
+              "": ""
+            },
+            "MovementPurpose": {},
+            "Time": {
+              "Speed": {},
+              "Rhythm": {}
+            },
+            "Supermovement": [],
+            "Submovement": [],
+            "Antemovement": [],
+            "Postmovement": [],
+            "Neuro": []
+          }
+        },
+        "HipHandSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "ShoulderHandSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "KneeHandSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "HandKneeSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "HeadHandSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "HandHeadSwap": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "Swap_Dynamic": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "Swap_Static": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      }
+    ]
+  },
+  "Swing": {
+    "ArmSwing": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "ArmBackSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmInitiationSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmForeSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmTwistSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": []
+      }
+    },
+    "LegSwing": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["HipFlexion"],
+      "LegBackSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegInitiationSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegForeSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegTwistSwing": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "BackSwing": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "InitiationSwing": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ForeSwing": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "TwistSwing": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Symmetrical": {
+    "Symmetrical_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Symmetrical_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Tangent": {
+    "LegTangent": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["LegRedirect"],
+      "Supermovement": ["LegSwing"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmTangent": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["ArmRedirect"],
+      "Supermovement": ["ArmSwing"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Tenuous": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": []
+  },
+  "Thuggy": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Thumb": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "ThumbAbduction": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["DriverThumbButton"],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ThumbRadialAbduction": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ThumbPalmarAbduction": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ThumbFlexion": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ThumbExtension": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ThumbOpposition": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Pinch"],
+      "Submovement": ["MuscleActivation"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Tool": {
+    "Screw": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Routesetting"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Rope": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Driver": {
+      "AlsoKnownAs": "Drill",
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["Routesetting"],
+      "Submovement": [],
+      "DriverHolster": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverUnholster": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverFingerButton": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["FingerFlexion"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverThumbButton": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["ThumbAbduction"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverLoadScrew": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverUnloadScrew": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverLoadBolt": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DriverUnloadBolt": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Carabiner": {
+      "AlsoKnownAs": ["Karabiner", "Clip"],
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "CarabinerOpenGate": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "CarabinerCloseGate": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["Release"],
+        "AnteMovement": ["RopeClip", "CarabinerOpenGate"],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Quickdraw": {
+      "AlsoKnownAs": ["Clip"],
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "HangerClip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "GearLoopClip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "GearLoopUnclip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Sling": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": []
+    },
+    "Harness": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "Submovement": [],
+      "PutOnHarness": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "TakeOffHarness": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": []
+      }
+    },
+    "ChalkBag": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["ChalkUp"],
+      "Submovement": [],
+      "OpenChalkBag": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "CloseChalkBag": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": []
+      }
+    },
+    "Helmet": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "RemoveHelmet": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "DonHelmet": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Protection": {
+      "ProtectionInsert": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ProtectionRemove": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ProtectionTest": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "Bolt": {
+        "BoltInsert": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": []
+        },
+        "BoltTest": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": []
+        },
+        "BoltRemove": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      },
+      "Hammer": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": [],
+        "HammerHit": {
+          "MovementNamespace": "",
+          "MovementRank": {
+            "": ""
+          },
+          "MovementPurpose": {},
+          "Time": {
+            "Speed": {},
+            "Rhythm": {}
+          },
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      },
+      "Piton": {
+        "PitonInsert": {
+          "MovementNamespace": "",
+          "MovementPurpose": ["AidClimbing"],
+          "Supermovement": [],
+          "Submovement": ["HammerHit"],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "PitonRemove": {
+          "MovementNamespace": "",
+          "MovementPurpose": ["AidClimbing"],
+          "Supermovement": [],
+          "Submovement": [],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "PitonTest": {
+          "MovementNamespace": "",
+          "MovementPurpose": ["AidClimbing"],
+          "Supermovement": [],
+          "Submovement": [
+            "ArmPull",
+            "LegPush",
+            "WeightShift",
+            "Hop",
+            "@Landing:LegExtension"
+          ],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        },
+        "Etrier": {
+          "MovementNamespace": "",
+          "MovementPurpose": ["AidClimbing"],
+          "Supermovement": [],
+          "Submovement": ["ArmPull", "LegPush"],
+          "Antemovement": [],
+          "Postmovement": [],
+          "Neuro": []
+        }
+      }
+    },
+    "Tool_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "RodeoClip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Tool_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "TopOut": {
+    "MovementNamespace": "",
+    "MovementRank": {
+      "": ""
+    },
+    "MovementPurpose": {},
+    "Supermovement": [],
+    "Submovement": ["Mantle"],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": []
+  },
+  "Transition": {
+    "HangingFootTransfer": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "HangingFootTransfer_Dynamic": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["FootStab"]
+      },
+      "HangingFootTransfer_Static": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["LegSwing", "SpineFlexion"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Transition_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Transition_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Twist": {
+    "Twist_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [
+        "LegSwing",
+        "KneeUp",
+        "LegCrunch",
+        "InitiationTwist",
+        "AbsorbTwist"
+      ],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "AbsorbTwist": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["ArmPull", "LegPush"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "InitiationTwist": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": ["ArmPull", "LegPush"],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "WhileTwist": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    },
+    "Twist_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["HangingFootTransfer", "Gainage"],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmTwist": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["ArmAbsorb"],
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "LegTwist": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["LegAbsorb"],
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyTwist": {
+      "MovementNamespace": "",
+      "MovementPurpose": ["BodyAbsorb"],
+      "Supermovement": [],
+      "Submovement": ["LegTwist", "BackTwist", "InitiationTwist", "LegAbsorb"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "BodyClockwiseTwist": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "BodyCounterclockwiseTwist": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Up": {
+    "UpDyno": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "UpReach": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "UpDeadpoint": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "UpThenOverDeadpoint": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "OverThenUpDeadpoint": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      }
+    }
+  },
+  "Vertical": {
+    "Vertical_Dynamic": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "Vertical_Static": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Wave": {
+    "MovementNamespace": "Wave",
+    "MovementPurpose": ["Absorb"],
+    "Supermovement": [],
+    "Submovement": [],
+    "Antemovement": [],
+    "Postmovement": [],
+    "Neuro": [],
+    "BodyWave": {
+      "MovementNamespace": "Wave.BodyWave",
+      "MovementPurpose": ["BodyAbsorb"],
+      "Supermovement": {
+        "Brachiation": "Brachiation.BodyWave"
+      },
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Whip": {
+    "ArmWhip": {
+      "MovementNamespace": "Whip.ArmWhip",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": ["ArmSwing"],
+      "Submovement": ["LeadingWithElbow"],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": [],
+      "ArmUpWhip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmOverWhip": {
+        "MovementNamespace": "Whip",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmIntoWallWhip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "ArmAwayFromWallWhip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": []
+      }
+    },
+    "LegWhip": {
+      "LegIntoWallWhip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["FootSlipRecovery"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegOverWhip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": ["FallOver", "FootStab", "HangingFootTransfer"],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegUpWhip": {
+        "MovementNamespace": "",
+        "MovementPurpose": {
+          "InitiationSwing": ["LateralDyno"]
+        },
+        "Supermovement": [
+          "LegAbsorb",
+          "FootStab",
+          "HangingFootTransfer",
+          "HighFoot"
+        ],
+        "Submovement": {
+          "LegFlexion": ""
+        },
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegDownWhip": {
+        "MovementNamespace": "",
+        "MovementPurpose": ["LegAbsorb"],
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "LegTwistWhip": {
+        "MovementNamespace": "",
+        "MovementRank": {
+          "": ""
+        },
+        "MovementPurpose": {},
+        "Time": {
+          "Speed": {},
+          "Rhythm": {}
+        },
+        "Supermovement": [],
+        "Submovement": [],
+        "Antemovement": [],
+        "Postmovement": [],
+        "Neuro": []
+      },
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "BodyWhip": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  },
+  "Wrap": {
+    "LegWrap": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ArmWrap": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    },
+    "ThumbWrap": {
+      "MovementNamespace": "",
+      "MovementRank": {
+        "": ""
+      },
+      "MovementPurpose": {},
+      "Time": {
+        "Speed": {},
+        "Rhythm": {}
+      },
+      "Supermovement": [],
+      "Submovement": [],
+      "Antemovement": [],
+      "Postmovement": [],
+      "Neuro": []
+    }
+  }
+}
