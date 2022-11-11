@@ -1,0 +1,18 @@
+{
+  "Movement_id": "",
+  "MovementName": "",
+  "MovementNamespace": "",
+  "MovementRank": {
+    "": ""
+  },
+  "MovementPurpose": { "": "" },
+  "Time": {
+    "Speed": {},
+    "Rhythm": {}
+  },
+  "Supermovement": [""],
+  "Submovement": [""],
+  "Antemovement": [""],
+  "Postmovement": [""],
+  "Neuro": [""]
+}

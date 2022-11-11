@@ -1,7 +1,9 @@
 {
-  id:""  
+  "id":,
+  "name": 
   "1Dimensional": {
-    "1DimensionalAbsorb": {
+      "Movement_id":,
+      "MovementName": "1DimensionalAbsorb",
       "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement",
       "MovementRank": {
         "1": ""
