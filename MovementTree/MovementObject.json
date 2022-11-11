@@ -5,6 +5,7 @@
   "MovementRank": {
     "": ""
   },
+  "MovementDescription": "",
   "MovementPurpose": { "": "" },
   "Time": {
     "Speed": {},
@@ -14,5 +15,6 @@
   "Submovement": [""],
   "Antemovement": [""],
   "Postmovement": [""],
-  "Neuro": [""]
+  "Neuro": [""],
+  "children": []
 }
