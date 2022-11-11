@@ -2,9 +2,7 @@
   "Movement_id": "",
   "MovementName": "",
   "MovementNamespace": "",
-  "MovementRank": {
-    "": ""
-  },
+  "MovementRank": { "": "" },
   "MovementDescription": "",
   "MovementPurpose": { "": "" },
   "Time": {
