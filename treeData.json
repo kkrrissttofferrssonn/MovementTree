@@ -1,14 +1,58 @@
 {
-  "name": "Top Level",
+  "name": "Root",
   "children": [
     {
-      "name": "1Dimensional",
-      "children": [{ "name": "Son of A" }, { "name": "Daughter of A" }]
-    },
-    {
-      "name": "2Dimensional",
+      "name": "LimitedDimensionMovement",
       "children": [
-        { "name": "2DimensionalAbsorb", "children": [{ "name": "test" }] }
+        {
+          "name": "1DimensionalMovement",
+          "children": [
+            {
+              "name": "1DimensionalDynamicMovement",
+              "children": [{}]
+            },
+            {
+              "name": "1DimensionalStaticMovement",
+              "children": [{}]
+            }
+          ]
+        },
+        {
+          "name": "2DimensionalMovement",
+          "children": [
+            {
+              "name": "2DimensionalDynamicMovement",
+              "children": [
+                {
+                  "name": "2DimensionalAbsorb",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2DimensionalStaticMovement",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3DimensionalMovement",
+          "children": [
+            {
+              "name": "3DimensionalDynamicMovement",
+              "children": [
+                {
+                  "name": "3DimensionalAbsorb",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3DimensionalStaticMovement",
+              "children": []
+            }
+          ]
+        }
       ]
     }
   ]

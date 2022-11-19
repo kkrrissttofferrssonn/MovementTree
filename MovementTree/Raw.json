@@ -2,18 +2,18 @@
  
   
   
-  // "1Dimensional": {
-      "Movement_id":,
-      "MovementName": "1DimensionalAbsorb",
-      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement"
+  // // "1Dimensional": {
+  //     "Movement_id":,
+  //     "MovementName": "1DimensionalAbsorb",
+  //     "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement"
       
-    },
-    "1DimensionalDynamicMovement": {
-      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalDynamicMovement",
+  //   },
+  //   "1DimensionalDynamicMovement": {
+  //     "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalDynamicMovement",
 
-    },
-    "1DimensionalStaticMovement": {
-      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalStaticMovement",
+  //   },
+  //   "1DimensionalStaticMovement": {
+  //     "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalStaticMovement",
       
       
       
@@ -22,15 +22,15 @@
       
    
       
-    }
-  },
-  "2DimensionalMovement": {
-    "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
-    "MovementRank": {
-      "": ""
-    },
+  // //   }
+  // // },
+  // "2DimensionalMovement": {
+  //   "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
+  //   "MovementRank": {
+  //     "": ""
+  //   },
     
-    "2DimensionalAbsorb": {
+  //   "2DimensionalAbsorb": {
       
       
       
@@ -40,8 +40,8 @@
       
    
       
-    },
-    "2Dimensional_Dynamic": {
+  //   },
+  //   "2Dimensional_Dynamic": {
      
       
       
@@ -50,9 +50,9 @@
       
    
       
-    },
-    "2Dimensional_Static": {
-      "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
+  //   },
+  //   "2Dimensional_Static": {
+  //     "MovementNamespace": "LimitedDimensionMovement\\2DimensionalMovement",
       
       
       
@@ -61,8 +61,8 @@
       
    
       
-    }
-  },
+  //   }
+  // },
   "3Dimensional": {
     "3DimensionalAbsorb": {
       "MovementNamespace": "LimitedDimensionMovement\\3DimensionalMovement",
