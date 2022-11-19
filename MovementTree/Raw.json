@@ -1,29 +1,16 @@
 {
  
   
-  "1Dimensional": {
+  
+  // "1Dimensional": {
       "Movement_id":,
       "MovementName": "1DimensionalAbsorb",
-      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement",
-      
-      
-      
-      
-     
-      
-   
+      "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement"
       
     },
     "1DimensionalDynamicMovement": {
       "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalDynamicMovement",
-      
-      
-      
-      
-     
-      
-   
-      
+
     },
     "1DimensionalStaticMovement": {
       "MovementNamespace": "LimitedDimensionMovement\\1DimensionalMovement\\1DimensionalStaticMovement",
