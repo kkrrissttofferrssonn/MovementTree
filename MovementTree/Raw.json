@@ -188,65 +188,65 @@
 //         "Supermovement": ["LegAbsorb"],
 
 //       }
-    },
-    "HeadAbsorb": {
-      "MovementNamespace": "Absorb\\HeadAbsorb",
-      "MovementPurpose": ["Absorb"],
+    // },
+    // "HeadAbsorb": {
+    //   "MovementNamespace": "Absorb\\HeadAbsorb",
+    //   "MovementPurpose": ["Absorb"],
 
-    }
-  },
-  "Accurate": {
-    "MovementNamespace": "MovementProperty\\Accurate",
-    "MovementRank": {
-      "": ""
-    },
-    
-
-  },
-  "Aggressive": {
-    "MovementNamespace": "MovmentProperty\\Aggressive",
-    "MovementRank": {
-      "": ""
-    },
+  //   // }
+  // },
+  // "Accurate": {
+  //   "MovementNamespace": "MovementProperty\\Accurate",
+  //   "MovementRank": {
+  //     "": ""
+  //   },
     
 
-  },
-  "Align": {
+  // },
+  // "Aggressive": {
+  //   "MovementNamespace": "MovmentProperty\\Aggressive",
+  //   "MovementRank": {
+  //     "": ""
+  //   },
     
-    "MovementRank": {
-      "": ""
-    },
+
+  // // },
+  // "Align": {
     
-    "Supermovement": ["Balance", "OptimizeFriction", "Posture"],
+  //   "MovementRank": {
+  //     "": ""
+  //   },
+    
+  //   "Supermovement": ["Balance", "OptimizeFriction", "Posture"],
    
     
  
-    ,
-    "LegAlign": {
+  //   ,
+  //   "LegAlign": {
 
-      "Supermovement": ["LegProp"],
+  //     "Supermovement": ["LegProp"],
      
 
-    },
-    "ArmAlign": {
-      "MovementNamespace": "Align\\ArmAlign",
-"Supermovement": ["StraightArm", "ArmProp", "ArmArch"],
+//   //   },
+//   //   "ArmAlign": {
+//   //     "MovementNamespace": "Align\\ArmAlign",
+// "Supermovement": ["StraightArm", "ArmProp", "ArmArch"],
      
 
-    },
-    "BodyAlign": {
-      "MovementNamespace": "Align\\BodyAlign",
-"Supermovement": ["BodyStack", "BodyArch"],
+//     },
+//     "BodyAlign": {
+//       "MovementNamespace": "Align\\BodyAlign",
+// "Supermovement": ["BodyStack", "BodyArch"],
      
 
-    },
-    "SpineAlign": {
+//     },
+//     "SpineAlign": {
 
-      "Supermovement": ["SpineStack"],
+//       "Supermovement": ["SpineStack"],
      
-"Neuro": ["Proprioception"]
-    }
-  },
+// "Neuro": ["Proprioception"]
+//     }
+//   },
   "Arch": {
     "ArmArch": {
 "PostMovement": ["HandFootSwap"]

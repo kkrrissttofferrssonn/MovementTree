@@ -156,6 +156,31 @@
               "children":[]
             }
           ]
+        },
+        {
+          "name": "HeadAbsorb",
+          "children":[]
+        }
+      ]
+    },
+    {
+      "name": "Align",
+      "children":[
+        {
+          "name": "ArmAlign",
+          "children":[]
+        },
+        {
+          "name": "LegAlign",
+          "children":[]
+        },
+        {
+          "name": "BodyAlign",
+          "children":[]
+        },
+        {
+          "name": "SpineAlign",
+          "children":[]
         }
       ]
     }
