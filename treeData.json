@@ -216,37 +216,41 @@
     },
     {
       "name": "Brachiation",
-      "children":[
+      "children": [
         {
           "name": "AnteriorBrachiation",
-          "children":[]
+          "children": []
         },
         {
           "name": "PosteriorBrachiation",
-          "children":[]
+          "children": []
         },
         {
           "name": "LateralBrachiation",
-          "children":[]
+          "children": []
         },
         {
           "name": "RicochetBrachiation",
-          "children":[]
+          "children": []
         },
         {
           "name": "180Brachiation",
-          "children":[
+          "children": [
             {
               "name": "180DynamicBrachiation",
-              "children":[]
+              "children": []
             },
             {
               "name": "180StaticBrachiation",
-              "children":[]
+              "children": []
             }
           ]
         }
       ]
+    },
+    {
+      "name": "Brush",
+      "children": []
     }
   ]
 }
