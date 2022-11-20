@@ -53,7 +53,7 @@
           .select('body')
           .append('svg')
           .attr('width', '100%')
-          .attr('height', height + margin.top + margin.bottom),
+          .attr('height', '10000px'),
         g = svg
           .append('g')
           .attr(
@@ -71,7 +71,7 @@
         .attr('d', function (d) {
           return (
             'M' +
-            (d.y) +
+            d.y +
             ',' +
             d.x +
             'C' +
