@@ -68,29 +68,29 @@
 
   //   }
   // },
-  "Abduction": {
-    "ArmAbduction": {
-      "ArmHorizontalAbduction": {
-        "MovementNamespace": "ArmMovement\\ArmHorizontalAbduction",
-        "MovementRank": {
-          "1": ""
-        },
+  // "Abduction": {
+  //   "ArmAbduction": {
+  //     "ArmHorizontalAbduction": {
+  //       "MovementNamespace": "ArmMovement\\ArmHorizontalAbduction",
+  //       "MovementRank": {
+  //         "1": ""
+  //       },
         
        
-        "Supermovement": ["Stemming", "ArmArch"],
+  //       "Supermovement": ["Stemming", "ArmArch"],
 
-      },
-      "ArmVerticalAbduction": {
-        "MovementNamespace": "PrimaryMovement\\Abduction",
-        "MovementRank": {
-          "1": ""
-        },
+  //     },
+  //     "ArmVerticalAbduction": {
+  //       "MovementNamespace": "PrimaryMovement\\Abduction",
+  //       "MovementRank": {
+  //         "1": ""
+  //       },
         
        
         
 
-      }
-    },
+  //     }
+  //   },
     "LegAbduction": {
       "LegHorizontalAbduction": {
         "MovementNamespace": "PrimaryMovement\\Abduction",
