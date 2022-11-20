@@ -213,6 +213,40 @@
           "children": []
         }
       ]
+    },
+    {
+      "name": "Brachiation",
+      "children":[
+        {
+          "name": "AnteriorBrachiation",
+          "children":[]
+        },
+        {
+          "name": "PosteriorBrachiation",
+          "children":[]
+        },
+        {
+          "name": "LateralBrachiation",
+          "children":[]
+        },
+        {
+          "name": "RicochetBrachiation",
+          "children":[]
+        },
+        {
+          "name": "180Brachiation",
+          "children":[
+            {
+              "name": "180DynamicBrachiation",
+              "children":[]
+            },
+            {
+              "name": "180StaticBrachiation",
+              "children":[]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
