@@ -5,22 +5,22 @@
 
   .node circle {
     fill: Orange;
-    stroke: steelblue;
-    stroke-width: 3px;
+    stroke: LightGreen;
+    stroke-width: 5px;
   }
 
   .node text {
-    font: 12px Arial;
+    font: 15px Arial;
   }
 
-  .node--internal text {
+  /* .node--internal text {
     text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
-  }
+  } */
 
   .link {
-    fill: Green;
-    stroke: #ccc;
-    stroke-width: 2px;
+    fill: LightGreen;
+    stroke: LightGreen;
+    stroke-width: 20px;
   }
 </style>
 
@@ -71,7 +71,7 @@
         .attr('d', function (d) {
           return (
             'M' +
-            d.y +
+            (d.y) +
             ',' +
             d.x +
             'C' +
@@ -102,8 +102,9 @@
           return 'translate(' + d.y + ',' + d.x + ')';
         });
 
-      // adds the circle to the node
-      node.append('circle').attr('r', 10);
+      // adds the circle to the node (Radius, Value)
+      //To adjust CircleSize, CirleRadius
+      node.append('circle').attr('r', 8);
 
       // adds the text to the node
       node
