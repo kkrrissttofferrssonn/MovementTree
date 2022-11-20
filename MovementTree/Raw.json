@@ -113,24 +113,24 @@
 
       }
     },
-    "FingerAbduction": {
-      "MovementNamespace": "PrimaryMovement\\Abduction",
+    // "FingerAbduction": {
+    //   "MovementNamespace": "PrimaryMovement\\Abduction",
       
-      "Supermovement": ["Pinch", "Grip"],
-      "Submovement": ["MuscleActivation"],
+    //   "Supermovement": ["Pinch", "Grip"],
+  //   //   "Submovement": ["MuscleActivation"],
 
-    },
-    "Abduction_Dynamic": {
-      "MovementNamespace": "PrimaryMovement\\Abduction",
-      
-
-    },
-    "Abduction_Static": {
-      "MovementNamespace": "PrimaryMovement\\Abduction",
+  //   },
+  //   "Abduction_Dynamic": {
+  //     "MovementNamespace": "PrimaryMovement\\Abduction",
       
 
-    }
-  },
+  //   },
+  //   "Abduction_Static": {
+  //     "MovementNamespace": "PrimaryMovement\\Abduction",
+      
+
+  //   }
+  // },
   "Absorb": {
     "ArmAbsorb": {
       "MovementNamespace": "SecondaryMovement\\Absorb",

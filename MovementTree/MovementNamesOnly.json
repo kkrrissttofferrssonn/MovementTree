@@ -105,6 +105,14 @@
         {
           "name": "FingerAbduction",
           "children": []
+        },
+        {
+          "name": "DynamicAbduction",
+          "children": []
+        },
+        {
+          "name": "StaticAbduction",
+          "children": []
         }
       ]
     }
