@@ -55,19 +55,19 @@
         },
         {
           "name": "4DimensionalMovement",
-          "children":[
+          "children": [
             {
               "name": "4DimensionalDynamicMovement",
-              "children":[
+              "children": [
                 {
                   "name": "4DimensionalMovement",
-                  "children":[]
+                  "children": []
                 }
               ]
             },
             {
               "name": "4DimensionalStaticMovement",
-              "children":[]
+              "children": []
             }
           ]
         }
@@ -75,27 +75,27 @@
     },
     {
       "name": "Abduction",
-      "children":[
+      "children": [
         {
           "name": "ArmAbduction",
-          "children":[
+          "children": [
             {
               "name": "ArmVerticalAbduction",
-              "children":[]
+              "children": []
             }
           ]
         },
         {
           "name": "ArmHorizontalAbduction",
-          "children":[]
+          "children": []
         },
         {
           "name": "",
-          "children":[]
+          "children": []
         },
         {
           "name": "",
-          "children":[]
+          "children": []
         }
       ]
     }
