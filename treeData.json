@@ -115,6 +115,19 @@
           "children": []
         }
       ]
+    },
+    {
+      "name": "Absorb",
+      "children": [
+        {
+          "name": "ArmAbsorb",
+          "children": []
+        },
+        {
+          "name": "BodyAbsorb",
+          "children": []
+        }
+      ]
     }
   ]
 }
