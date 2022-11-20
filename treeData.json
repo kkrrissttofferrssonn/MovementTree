@@ -138,49 +138,79 @@
         },
         {
           "name": "LegAbsorb",
-          "children":[
+          "children": [
             {
               "name": "LegWhipAbsorb",
-              "children":[]
+              "children": []
             },
             {
               "name": "LegArcAbsorb",
-              "children":[]
+              "children": []
             },
             {
               "name": "LegKneeUpAbsorb",
-              "children":[]
+              "children": []
             },
             {
               "name": "LegTangentAbsorb",
-              "children":[]
+              "children": []
             }
           ]
         },
         {
           "name": "HeadAbsorb",
-          "children":[]
+          "children": []
         }
       ]
     },
     {
       "name": "Align",
-      "children":[
+      "children": [
         {
           "name": "ArmAlign",
-          "children":[]
+          "children": []
         },
         {
           "name": "LegAlign",
-          "children":[]
+          "children": []
         },
         {
           "name": "BodyAlign",
-          "children":[]
+          "children": []
         },
         {
           "name": "SpineAlign",
-          "children":[]
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Arch",
+      "children": [
+        {
+          "name": "ArmArch",
+          "children": []
+        },
+        {
+          "name": "LegArch",
+          "children": []
+        },
+        {
+          "name": "BodyArch",
+          "children": [
+            {
+              "name": "BodyAnteriorArch",
+              "children": []
+            },
+            {
+              "name": "BodyLateralArch",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SpineArch",
+          "children": []
         }
       ]
     }
