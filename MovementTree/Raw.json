@@ -91,22 +91,22 @@
 
   //     }
   //   },
-    "LegAbduction": {
-      "LegHorizontalAbduction": {
-        "MovementNamespace": "PrimaryMovement\\Abduction",
-        "MovementRank": {
-          "1": ""
-        },
+    // "LegAbduction": {
+    //   "LegHorizontalAbduction": {
+    //     "MovementNamespace": "PrimaryMovement\\Abduction",
+    //     "MovementRank": {
+    // //       "1": ""
+    // //     },
         
        
-        "Supermovement": ["Stemming", "LegArch", "LegExpansion", "LegProp"],
+    //     "Supermovement": ["Stemming", "LegArch", "LegExpansion", "LegProp"],
 
-      },
-      "LegVerticalAbduction": {
-        "MovementNamespace": "PrimaryMovement\\Abduction",
-        "MovementRank": {
-          "1": ""
-        },
+    //   },
+    //   "LegVerticalAbduction": {
+    //     "MovementNamespace": "PrimaryMovement\\Abduction",
+    //     "MovementRank": {
+    //       "1": ""
+    //     },
         
        
         

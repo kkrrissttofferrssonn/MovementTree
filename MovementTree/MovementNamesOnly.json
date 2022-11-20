@@ -82,19 +82,28 @@
             {
               "name": "ArmVerticalAbduction",
               "children": []
+            },
+            {
+              "name": "ArmHorizontalAbduction",
+              "children": []
             }
           ]
         },
         {
-          "name": "ArmHorizontalAbduction",
-          "children": []
+          "name": "LegAbduction",
+          "children": [
+            {
+              "name": "LegHorizontalAbduction",
+              "children": []
+            },
+            {
+              "name": "LegVerticalAbduction",
+              "children": []
+            }
+          ]
         },
         {
-          "name": "",
-          "children": []
-        },
-        {
-          "name": "",
+          "name": "FingerAbduction",
           "children": []
         }
       ]
