@@ -125,7 +125,37 @@
         },
         {
           "name": "BodyAbsorb",
-          "children": []
+          "children": [
+            {
+              "name": "BodyRotateAbsorb",
+              "children": []
+            },
+            {
+              "name": "BodyTwistAbsorb",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LegAbsorb",
+          "children":[
+            {
+              "name": "LegWhipAbsorb",
+              "children":[]
+            },
+            {
+              "name": "LegArcAbsorb",
+              "children":[]
+            },
+            {
+              "name": "LegKneeUpAbsorb",
+              "children":[]
+            },
+            {
+              "name": "LegTangentAbsorb",
+              "children":[]
+            }
+          ]
         }
       ]
     }

@@ -130,64 +130,64 @@
       
 
   //   }
-  // },
-  "Absorb": {
-    "ArmAbsorb": {
-      "MovementNamespace": "SecondaryMovement\\Absorb",
+  // // },
+  // "Absorb": {
+  //   "ArmAbsorb": {
+  //     "MovementNamespace": "SecondaryMovement\\Absorb",
       
 
-    },
-    "BodyAbsorb": {
-      "MovementNamespace": "SecondaryMovement\\Absorb",
+  //   },
+  //   "BodyAbsorb": {
+  //     "MovementNamespace": "SecondaryMovement\\Absorb",
       
-      "BodyRotateAbsorb": {
-        "MovementNamespace": "SecondaryMovement\\Absorb",
+  //     "BodyRotateAbsorb": {
+  //       "MovementNamespace": "SecondaryMovement\\Absorb",
 
-      },
-      "BodyTwistAbsorb": {
-        "MovementNamespace": "SecondaryMovement\\Absorb",
-        "Submovement": ["BodyTwist"],
-        "AnteMovement": ["LateralDyno.Catch"],
+  //     },
+  //     "BodyTwistAbsorb": {
+  //       "MovementNamespace": "SecondaryMovement\\Absorb",
+  //       "Submovement": ["BodyTwist"],
+  //       "AnteMovement": ["LateralDyno.Catch"],
      
         
-      }
-    },
-    "LegAbsorb": {
-      "MovementNamespace": "LegMovement\\LegAbs",
+//   //     }
+//   //   },
+//     "LegAbsorb": {
+//       "MovementNamespace": "LegMovement\\LegAbs",
       
-      "Supermovement": ["BodyAbsorb"],
-      "Submovement": [
-        "LegEccentricFlexion",
-        "LegEccentricExtension",
-        "LegEccentricAbduction",
-        "LegEccentricAdduction",
-        "HipEccentricFlexion",
-        "HipEccentricExtension"
-      ],
-,
-      "LegWhipAbsorb": {
-        "MovementNamespace": "SecondaryMovement\\Absorb",
+//       "Supermovement": ["BodyAbsorb"],
+//       "Submovement": [
+//         "LegEccentricFlexion",
+//         "LegEccentricExtension",
+//         "LegEccentricAbduction",
+//         "LegEccentricAdduction",
+//         "HipEccentricFlexion",
+//         "HipEccentricExtension"
+//       ],
+// ,
+//       "LegWhipAbsorb": {
+//         "MovementNamespace": "SecondaryMovement\\Absorb",
 
-      },
-      "LegArcAbsorb": {
-        "MovementNamespace": "SecondaryMovement\\Absorb",
+//       },
+//       "LegArcAbsorb": {
+//         "MovementNamespace": "SecondaryMovement\\Absorb",
 
-        "Supermovement": ["LegAbsorb"],
+//         "Supermovement": ["LegAbsorb"],
 
-      },
-      "LegKneeUpAbsorb": {
-        "MovementNamespace": "SecondaryMovement\\Absorb",
+//       },
+//       "LegKneeUpAbsorb": {
+//         "MovementNamespace": "SecondaryMovement\\Absorb",
 
-        "Supermovement": ["LegAbsorb"],
-        "Submovement": ["LegFlexion", "LegCrunch"],
+//         "Supermovement": ["LegAbsorb"],
+//         "Submovement": ["LegFlexion", "LegCrunch"],
           
-      },
-      "LegTangentAbsorb": {
-        "MovementNamespace": "Absorb\\LegAbsorb\\LegTangentAbsorb",
+//       },
+//       "LegTangentAbsorb": {
+//         "MovementNamespace": "Absorb\\LegAbsorb\\LegTangentAbsorb",
 
-        "Supermovement": ["LegAbsorb"],
+//         "Supermovement": ["LegAbsorb"],
 
-      }
+//       }
     },
     "HeadAbsorb": {
       "MovementNamespace": "Absorb\\HeadAbsorb",
