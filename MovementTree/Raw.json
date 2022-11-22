@@ -2,8 +2,6 @@
   // "Brachiation": {
     
   //   
-  //     "": ""
-  //   },
     
     
   //   "Submovement": [
@@ -25,19 +23,19 @@
   //   ,
   //   "AnteriorBrachiation": {
 
-  //   },
+  //   
   //   "PosteriorBrachiation": {
 
-  //   },
+  //   
   //   "LateralBrachiation": {
 
-  //   },
+  //   
   //   "RicochetBrachiation": {
 
       
   // //     "Submovement": ["BodyRedirect", "LegSwing", "LegAbsorb"],
 
-  //   },
+  //   
   //   "180Brachiation": {
 
       
@@ -45,11 +43,11 @@
   //     "180Brachiation_Dynamic": {
   //       "MovementNamespace": "Brachiation\\180Brachiation\\180StaticBrachiation",
 
-  //     },
+  //     
   //     "180Brachiation_Static": {
-    //     }
-  //   }
-  // },
+    //     
+  //   
+  // 
   "BrushMovement": {
     "Brush_Dynamic": {
     "Brush_Static": {
@@ -82,7 +80,7 @@
       "MovementName": "ArmCircumduction",
       "MovementName": "LegCircumduction",
       "MovementName": "BodyCircumduction",
-  "Clamp": {},
+  "Clamp": {
   "Clipping": {
     "Clipping_Dynamic": {
     "Clipping_Static": {
@@ -114,7 +112,7 @@
   "Delicate": {
     "Delicate_Dynamic": {
     "Delicate_Static": {
-  "Distal": {},
+  "Distal": {
   "Down": {
     "DownClimb": {
     "DownDeadpoint": {
@@ -122,7 +120,7 @@
     "ArmDrop": {
     "LegDrop": {
     "BodyDrop": {
-  "Dynamic": {},
+  "Dynamic": {
   "Dyno": {
     "VerticalDyno": {
     "HorizontalDyno": {
@@ -436,7 +434,6 @@
   "Smear": {
     "HandSmear": {
     "FootSmear": {
-
     "HipSmear": {
     "HeadSmear": {
       "ChinSmear": {
@@ -465,683 +462,155 @@
   "Static": {
   "Subtle": {
     "Subtle_Dynamic": {
-    "Subtle_Static": {}
+    "Subtle_Static": {
   "Swap": {
-          {
             "MovementName": "PianoSwap",
-            "MovementNamespace": "ArmMovement\\HandMovement\\HandSwap\\PianoSwap",
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          }
-        ]
-      },
-      {
         "FootSwap": {
           "FootHopSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          },
           "FootSmearSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          },
           "FootRollSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          }
-        },
         "FingerSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "HandFootSwap": {
           "HandHeelSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          },
           "HandToeSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          }
-        },
         "HandHipSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "FootHandSwap": {
           "HeelHandSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          },
           "ToeHandSwap": {
-            
-            
-              "": ""
-            },
-            
-            
-              
-              
-            },
-            
-           
-            
-         
-            
-          }
-        },
         "HipHandSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "ShoulderHandSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "KneeHandSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "HandKneeSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "HeadHandSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "HandHeadSwap": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "Swap_Dynamic": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        },
         "Swap_Static": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        }
-      }
-    ]
-  },
   "Swing": {
     "ArmSwing": {
       "ArmBackSwing": {
-},
       "ArmInitiationSwing": {
-},
       "ArmForeSwing": {
-},
       "ArmTwistSwing": {
-}
-    },
     "LegSwing": {
 "Submovement": ["HipFlexion"],
       "LegBackSwing": {
-},
       "LegInitiationSwing": {
-},
       "LegForeSwing": {
-},
       "LegTwistSwing": {
-}
-    },
     "BackSwing": {
-
-    },
     "InitiationSwing": {
-
-    },
     "ForeSwing": {
-
-    },
     "TwistSwing": {
-
-    }
-  },
   "Symmetrical": {
     "Symmetrical_Dynamic": {
-
-    },
     "Symmetrical_Static": {
-
-    }
-  },
   "Tangent": {
     "LegTangent": {"MovementPurpose": ["LegRedirect"],
-      "Supermovement": ["LegSwing"],
-},
     "ArmTangent": {"MovementPurpose": ["ArmRedirect"],
-      "Supermovement": ["ArmSwing"],
-}
-  },
   "Tenuous": {
- "": ""
-    },
-},
   "Thuggy": {
- "": ""
-    },
-},
   "Thumb": {
- "": ""
-    },
-    
-,
     "ThumbAbduction": {
-
-      "Supermovement": ["DriverThumbButton"],
-      "Submovement": ["MuscleActivation"],
-
-    },
     "ThumbRadialAbduction": {
-"Submovement": ["MuscleActivation"],
-
-    },
     "ThumbPalmarAbduction": {
-"Submovement": ["MuscleActivation"],
-
-    },
     "ThumbFlexion": {
-"Submovement": ["MuscleActivation"],
-
-    },
     "ThumbExtension": {
-"Submovement": ["MuscleActivation"],
-
-    },
     "ThumbOpposition": {
-
-      "Supermovement": ["Pinch"],
-      "Submovement": ["MuscleActivation"],
-
-    }
-  },
   "Tool": {
     "Screw": {
-
-      "Supermovement": ["Routesetting"],
-},
     "Rope": {
-
-    },
     "Driver": {
-      "AlsoKnownAs": "Drill",
-
-      "Supermovement": ["Routesetting"],
-     
       "DriverHolster": {
-},
       "DriverUnholster": {
-},
       "DriverFingerButton": {
-        
-        "Submovement": ["FingerFlexion"],
-          
-      },
       "DriverThumbButton": {
-        
-        "Submovement": ["ThumbAbduction"],
-          
-      },
       "DriverLoadScrew": {
-},
       "DriverUnloadScrew": {
-},
       "DriverLoadBolt": {
-},
       "DriverUnloadBolt": {
-}
-    },
     "Carabiner": {
-      "AlsoKnownAs": ["Karabiner", "Clip"],
-,
       "CarabinerOpenGate": {
-},
       "CarabinerCloseGate": {
-        
-        "Submovement": ["Release"],
-        "AnteMovement": ["RopeClip", "CarabinerOpenGate"],
-     
-        
-      }
-    },
     "Quickdraw": {
-      "AlsoKnownAs": ["Clip"],
       "HangerClip": {
-},
       "GearLoopClip": {
-},
       "GearLoopUnclip": {
-}
-    },
     "Sling": {
-},
     "Harness": {
-
-      
-,
-     
       "PutOnHarness": {
-},
       "TakeOffHarness": {
-}
-    },
     "ChalkBag": {
-
-      "Supermovement": ["ChalkUp"],
-     
       "OpenChalkBag": {
-},
       "CloseChalkBag": {
-}
-    },
     "Helmet": {
       "RemoveHelmet": {
-},
       "DonHelmet": {
-}
-    },
     "Protection": {
       "ProtectionInsert": {
-},
       "ProtectionRemove": {
-},
       "ProtectionTest": {
-},
       "Bolt": {
         "BoltInsert": {
-          
-          
-            "": ""
-          },
-  
-          },
-          
-          
-        },
         "BoltTest": {
-          
-          
-            "": ""
-          },
-  
-          },
-          
-          
-        },
         "BoltRemove": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        }
-      },
       "Hammer": {
-        
-,
         "HammerHit": {
-          
-          
-            "": ""
-          },
-  
-          },
-
-        }
-      },
       "Piton": {
         "PitonInsert": {
-          
-          "MovementPurpose": ["AidClimbing"],
-          
-          "Submovement": ["HammerHit"],
-
-        },
         "PitonRemove": {
-          
-          "MovementPurpose": ["AidClimbing"],
-
-        },
         "PitonTest": {
-          
-          "MovementPurpose": ["AidClimbing"],
-          
-          "Submovement": [
-            "ArmPull",
-            "LegPush",
-            "WeightShift",
-            "Hop",
-            "@Landing:LegExtension"
-          ],
-
-        },
         "Etrier": {
-          
-          "MovementPurpose": ["AidClimbing"],
-          
-          "Submovement": ["ArmPull", "LegPush"],
-
-        }
-      }
-    },
     "Tool_Dynamic": {
-,
       "RodeoClip": {
-}
-    },
     "Tool_Static": {
-
-    }
-  },
   "TopOut": {
- "": ""
-    },
-    
-    
-    "Submovement": ["Mantle"],
-    
- 
-    
-  },
   "Transition": {
     "HangingFootTransfer": {
       "HangingFootTransfer_Dynamic": {
-        
-        "Submovement": ["FootStab"]
-      },
       "HangingFootTransfer_Static": {
-        
-        "Submovement": ["LegSwing", "SpineFlexion"],
-          
-      }
-    },
     "Transition_Dynamic": {
-
-    },
     "Transition_Static": {
-
-    }
-  },
   "Twist": {
     "Twist_Dynamic": {
-"Submovement": [
-        "LegSwing",
-        "KneeUp",
-        "LegCrunch",
-        "InitiationTwist",
-        "AbsorbTwist"
-      ],
-,
       "AbsorbTwist": {
-        
-        "Submovement": ["ArmPull", "LegPush"],
-          
-      },
       "InitiationTwist": {
-        
-        "Submovement": ["ArmPull", "LegPush"],
-          
-      },
       "WhileTwist": {
-}
-    },
     "Twist_Static": {
-
-      "Supermovement": ["HangingFootTransfer", "Gainage"],
-},
     "ArmTwist": {"MovementPurpose": ["ArmAbsorb"],
-
-    },
     "LegTwist": {"MovementPurpose": ["LegAbsorb"],
-
-    },
     "BodyTwist": {"MovementPurpose": ["BodyAbsorb"],"Submovement": ["LegTwist", "BackTwist", "InitiationTwist", "LegAbsorb"],
-,
       "BodyClockwiseTwist": {
-},
       "BodyCounterclockwiseTwist": {
-}
-    }
-  },
   "Up": {
     "UpDyno": {
-
-    },
     "UpReach": {
-
-    },
     "UpDeadpoint": {
       "UpThenOverDeadpoint": {
-},
       "OverThenUpDeadpoint": {
-}
-    }
-  },
   "Vertical": {
     "Vertical_Dynamic": {
-
-    },
     "Vertical_Static": {
-
-    }
-  },
   "Wave": {
-    "MovementNamespace": "Wave",
-    "MovementPurpose": ["Absorb"],
-,
     "BodyWave": {
-      "MovementNamespace": "Wave.BodyWave",
-      "MovementPurpose": ["BodyAbsorb"],
-      "Supermovement": {
         "Brachiation": "Brachiation.BodyWave"
-      },
-}
-  },
   "Whip": {
     "ArmWhip": {
-      "MovementNamespace": "Whip.ArmWhip",
-"Supermovement": ["ArmSwing"],
-      "Submovement": ["LeadingWithElbow"],
-,
       "ArmUpWhip": {
-},
       "ArmOverWhip": {
-        "MovementNamespace": "Whip",
-
-      },
       "ArmIntoWallWhip": {
-},
       "ArmAwayFromWallWhip": {
-}
-    },
     "LegWhip": {
       "LegIntoWallWhip": {
- 
-       
-        "Supermovement": ["FootSlipRecovery"],
-
-      },
       "LegOverWhip": {
- 
-       
-        "Supermovement": ["FallOver", "FootStab", "HangingFootTransfer"],
-
-      },
       "LegUpWhip": {
-        
-        "MovementPurpose": {
-          "InitiationSwing": ["LateralDyno"]
-        },
-        "Supermovement": [
-          "LegAbsorb",
-          "FootStab",
-          "HangingFootTransfer",
-          "HighFoot"
-        ],
-        "Submovement": {
-          "LegFlexion": ""
-        },
-          
-      },
       "LegDownWhip": {
-        
-        "MovementPurpose": ["LegAbsorb"],
-},
       "LegTwistWhip": {
-},
-
-    },
     "BodyWhip": {
-
-    }
-  },
   "Wrap": {
     "LegWrap": {
-
-    },
     "ArmWrap": {
-
-    },
     "ThumbWrap": {
 
-    }
-  }
-}
+    
+  
+
