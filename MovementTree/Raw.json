@@ -340,673 +340,98 @@
     "ArmPush": {
       "ArmDistalPush": {
       "ArmMedialPush": {
-        "Supermovement": ["ArmCompression"],
-
-      }
-    },
     "LegPush": {
-
-      "Supermovement": ["Launch"],
-     
-
-    }
-  },
   "Reach": {
-    "MovementNamespace": "Reach",
-    "MovementPurpose": ["Advance"],
-    
-   
-    
-    "PostMovement": ["Catch"],
     "ArmReach": {
       "ArmArcReach": {
-        
-       
-        
-        "PostMovement": ["Catch"]
-      },
       "ArmLateralReach": {
-        
-       
-        
-        "PostMovement": ["Catch"]
-      },
       "ArmMedialReach": {
-        
-       
-        
-        "PostMovement": ["Catch"]
-      },
       "ArmDownReach": {
- 
-       
-        "Supermovement": ["DownClimb"],
-       
-        
-        "PostMovement": ["Undercling"]
-      },
       "ArmUpReach": {
-        
-       
-        
-        "PostMovement": ["Catch"]
-      },
       "ArmPosteriorReach": {
-        
-       
-        
-        "PostMovement": ["Catch"]
-      },
       "ArmDistalReach": {
-        
-       
-        
-        "PostMovement": ["Catch"]
-      },
       "ArmCrossReach": {
         "ArmCrossArmReach": {
-          
-          "MovementRank": {
-            "": ""
-          },
-          
-          "Time": {
-            "Speed": {},
-            "Rhythm": {}
-          },
-          
-         
-          
-          "PostMovement": ["Catch"],
           "ArmCrossArmAboveReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-            "PostMovement": ["Catch"],
             "ArmCrossArmAbovePosteriorReach": {
-              
-              "MovementRank": {
-                "": ""
-              },
-              
-              "Time": {
-                "Speed": {},
-                "Rhythm": {}
-              },
-              
-             
-              
-              "PostMovement": ["Catch"]
-            },
             "ArmCrossArmAboveAnteriorReach": {
-              
-              "MovementRank": {
-                "": ""
-              },
-              
-              "Time": {
-                "Speed": {},
-                "Rhythm": {}
-              },
-              
-             
-              
-              "PostMovement": ["Catch"]
-            }
-          },
           "ArmCrossLegReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "ArmCrossMidlineReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          }
-        },
         "ArmRadialReach": {
-          
-          "MovementRank": {
-            "": ""
-          },
-          
-          "Time": {
-            "Speed": {},
-            "Rhythm": {}
-          },
-          
-         
-          
-       
-          
-        },
         "LegReach": {
           "LegRadialReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            "Supermovement": ["HangingFootTransfer"],
-           
-            
-         
-            
-          },
           "LegArcReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegLateralReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegMedialReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegDownReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegUpReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegPosteriorReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegDistalReach": {
-            
-            "MovementRank": {
-              "": ""
-            },
-            
-            "Time": {
-              "Speed": {},
-              "Rhythm": {}
-            },
-            
-           
-            
-         
-            
-          },
           "LegCrossReach": {
             "LegCrossLegReach": {
-              
-              "MovementRank": {
-                "": ""
-              },
-              
-              "Time": {
-                "Speed": {},
-                "Rhythm": {}
-              },
-              
-             
-              
-           
-              
-            },
             "LegCrossArmReach": {
-              
-              "MovementRank": {
-                "": ""
-              },
-              
-              "Time": {
-                "Speed": {},
-                "Rhythm": {}
-              },
-              
-             
-              
-           
-              
-            },
             "LegCrossMidlineReach": {
-              
-              "MovementRank": {
-                "": ""
-              },
-              
-              "Time": {
-                "Speed": {},
-                "Rhythm": {}
-              },
-              
-             
-              
-           
-              
-            }
-          }
-        }
-      }
-    }
-  },
   "ReciprocalInhibition": {
     "ReciprocalInhibition_Dynamic": {
-
-    },
     "ReciprocalInhibition_Static": {
-
-    }
-  },
   "Relative": {
-    
-    "MovementRank": {
-      "": ""
-    },
-    
-
-  },
   "Relative_Dynamic": {
-    
-    "MovementRank": {
-      "": ""
-    },
-    
-
-  },
   "Relative_Static": {
-    
-    "MovementRank": {
-      "": ""
-    },
-    
-
-  },
   "Rest": {
     "Rest_Dynamic": {
-
-    },
     "Rest_Static": {
-
-    },
-    
-    "MovementRank": {
-      "": ""
-    },
-    
-    
-    "Submovement": ["Shake"],
-    
- 
-    ,
     "ArmRest": {
-
-      
-      "Submovement": ["ArmShake"],
-
-    },
     "LegRest": {
-
-      
-      "Submovement": ["LegShake"],
-
-    }
-  },
   "RockOver": {
     "LegRockOver": {
-
-    },
     "ArmRockOver": {
-
-    },
     "RockOver_Dynamic": {
-
-    },
     "RockOver_Static": {
-
-    }
-  },
   "Roll": {
     "FootRoll": {
-
-      "Supermovement": [
-        "FootSwap",
-        "LegRockUp",
-        "LegRockOver",
-        "Mantle",
-        "CalfRaise"
-      ],
-     
-
-    },
     "FingerRoll": {
-
-      "Supermovement": ["CrimpGrip", "HandSwap"],
-     
-
-    },
     "HandRoll": {
       "WristRoll": {
-        
-
-      }
-    }
-  },
   "Rope": {
     "Rope_Dynamic": {
-
-    },
     "Rope_Static": {
-
-    },
     "RopeBite": {
-
-      "Supermovement": ["Clipping", "RopeSlacken"],
-     
-      "Antemovement": ["RopeGrip"],
-      "Postmovement": ["RopeGrip", "CarabinerClip"]
-    }
-  },
   "Rotation": {
     "ArmRotation": {
       "ArmInternalRotation": {
-        "MovementNamespace": "ArmMovement\\ArmRotation\\ArmInternalRotation",
-        "MovementRank": {
-          "1": ""
-        },
-        
-       
-        "Supermovement": ["ArmCompression", "TwistLock"],
-
-      },
       "ArmExternalRotation": {
-        "MovementNamespace": "ArmMovement\\ArmRotation\\ArmExternalRotation",
-        "MovementRank": {
-          "1": ""
-        },
-        
-       
-        
-
-      }
-    },
     "LegRotation": {
-,
       "LegInternalRotation": {
-        
-
-      }
-    },
     "FootRotation": {
       "FootPronation": {
-        
-
-      },
       "FootSupination": {
-        
-
-      }
-    },
     "HandRotation": {
       "HandSupination": {
-        
-
-      },
       "HandPronation": {
-        
-
-      }
-    }
-  },
   "Run": {
-    "MovementNamespace": "BodyMovmement\\Run",
-    "MovementRank": {
-      "": ""
-    },
-    
-    "Supermovement": ["RunJump", "RunLanding"],
-   
-    
- 
-    
-  },
   "ScapulaMovement": {
-    "MovementNamespace": "ArmMovement\\ScapulaMovement",
-    "MovementRank": {
-      "": ""
-    },
-    
-    
-   
     "ScapulaProtraction": {
-      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaProtraction",
-      
-
-    },
     "ScapulaElevation": {
-      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaElevation",
-      
-
-    },
     "ScapulaRetraction": {
-      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaRetraction",
-      
-
-    },
     "ScapulaDepression": {
-      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaDepression",
-      
-
-    },
     "ScapulaUpRotation": {
-      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaUpRotation",
-      
-
-    },
     "ScapulaDownRotation": {
-      "MovementNamespace": "ArmMovement\\ScapulaMovement\\ScapulaDownRotation",
-      
-
-    }
-  },
   "ShakeOut": {
     "ArmShake": {
-      "MovementNamespace": "ArmMovement\\ArmShake",
-"Supermovement": ["ArmRest", "BodyRest"],
-     
-
-    },
     "LegShake": {
-      "MovementNamespace": "LegMovement\\LegShake",
-      
-      "MovementPurpose": {
-        "ArmPump": "ToReduceArmPump"
-      },
-      
-      "Supermovement": ["LegRest", "BodyRest"],
-     
-
-    }
-  },
   "Sit": {
-    "MovementNamespace": "BodyMovement\\Sit",
-    "MovementRank": {
-      "": ""
-    },
-    
-    "Supermovement": ["BodyRest", "RouteReading"],
-    "Submovement": ["LegFlexion", "LegSmear", "HipFlexion"],
-    
- 
-    
-  },
   "Slide": {
     "HandSlide": {
-
-      "Supermovement": [
-        "HandSwap",
-        "HandFootSwap",
-        "FeelingForHold",
-        "ArmProp"
-      ],
-     
-
-    },
     "FingerSlide": {
-
-      "Supermovement": ["FootSwap"],
-     
-
-    },
     "FootSlide": {
-
-    }
-  },
   "Slip": {
-    
-    "MovementRank": {
-      "": ""
-    },
-    
-    "Time": {
-      "Speed": {},
-      "Rhythm": {}
-    },
-,
-    "Children": [
-      {
         "MovementName": "FootSlip",
-        
-
-      },
-      {
         "MovementName": "HandSlip",
-        
-
-      }
-    ]
-  },
   "Slot": {
     "Slot_Dynamic": {
-
-    },
     "Slot_Static": {
-
-    },
     "HandSlot": {
-
-    },
     "FootSlot": {
-
-      "Supermovement": ["HangingFootTransfer", "FootJam"],
-     
-
-    },
     "LegSlot": {
 
       "Supermovement": ["HangingFootTransfer", "LegJam"],
