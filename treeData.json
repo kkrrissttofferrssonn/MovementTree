@@ -274,7 +274,26 @@
         { "name": "Bump_Static", "children": [] }
       ]
     },
-    { "name": "Carabiner", "children": [] }
+    { "name": "Carabiner", "children": [] },
+    {
+      "name": "Catch",
+      "children": [
+        { "name": "ArmCompressionCatch", "children": [] },
+        { "name": "LegCompressionCatch", "children": [] },
+        {
+          "name": "HandCatch",
+          "children": [{ "name": "PinchCatch", "children": [] }]
+        },
+        { "name": "FootCatch", "children": [] },
+        { "name": "ToeCatch", "children": [] }
+      ]
+    },
+    {"name":  "Chalk", "children": [
+      {"name":  "ChalkUp", "children": []},
+      {"name":  "ChalkBlow", "children": []},
+      {"name":  "ChalkTicMark", "children": []},
+      {"name":  "Chalk_Dynamic", "children": []},
+      {"name":  "Chalk_Static", "children": []}]}
 
     //Dont Touch
   ]
