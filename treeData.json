@@ -250,7 +250,32 @@
     },
     {
       "name": "Brush",
-      "children": []
-    }
+      "children": [
+        { "name": "Brush_Dynamic", "children": [] },
+        { "name": "Brush_Static", "children": [] }
+      ]
+    },
+    {
+      "name": "Buckle",
+      "children": [
+        { "name": "ArmBuckle", "children": [] },
+        { "name": "LegBuckle", "children": [] },
+        { "name": "FingerBuckle", "children": [] }
+      ]
+    },
+    {
+      "name": "Bump",
+      "children": [
+        { "name": "ArmBump", "children": [] },
+        { "name": "ArmBump_Dynamic", "children": [] },
+        { "name": "ArmStaticBump", "children": [] },
+        { "name": "LegBump", "children": [] },
+        { "name": "DynamicBump", "children": [] },
+        { "name": "Bump_Static", "children": [] }
+      ]
+    },
+    { "name": "Carabiner", "children": [] }
+
+    //Dont Touch
   ]
 }
