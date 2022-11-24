@@ -388,7 +388,25 @@
         { "name": "BodyDrop", "children": [] }
       ]
     },
-    { "name": "Dynamic", "children": [] }
-    //
+    { "name": "Dynamic", "children": [] },
+    {
+      "name": "Dyno",
+      "children": [
+        { "name": "VerticalDyno", "children": [] },
+        { "name": "HorizontalDyno", "children": [] },
+        { "name": "DownDyno", "children": [] },
+        { "name": "DiagonalDyno", "children": [] },
+        { "name": "PosteriorDyno", "children": [] },
+        { "name": "180Dyno", "children": [] },
+        { "name": "90Dyno", "children": [] }
+      ]
+    },
+    {
+      "name": "Expansion",
+      "children": [
+        { "name": "Expansion_Dynamic", "children": [] },
+        { "name": "Expansion_Static", "children": [] }
+      ]
+    }
   ]
 }
