@@ -506,7 +506,6 @@
     {
       "name": "Grip",
       "children": [
-        ,
         { "name": "JugGrip", "children": [] },
         { "name": "2FingerGrip", "children": [] },
         { "name": "3FingerGrip", "children": [] },
@@ -566,6 +565,179 @@
         { "name": "ArmIsometricContraction", "children": [] },
         { "name": "LegIsometricContraction", "children": [] },
         { "name": "SpineIsometricContraction", "children": [] }
+      ]
+    },
+    {
+      "name": "Jam",
+      "children": [
+        { "name": "Jam_Dynamic", "children": [] },
+        { "name": "Jam_Static", "children": [] },
+        { "name": "BodyJam", "children": [] },
+        { "name": "HandJam", "children": [] },
+        {
+          "name": "FootJam",
+          "children": [{ "name": "HeelToeCam", "children": [] }]
+        },
+        { "name": "LegJam", "children": [] },
+        { "name": "ArmJam", "children": [] }
+      ]
+    },
+    {
+      "name": "Kneebar",
+      "children": [
+        { "name": "AnteriorKneebar", "children": [] },
+        { "name": "LateralKneebar", "children": [] },
+        { "name": "2_AnteriorKneebar", "children": [] }
+      ]
+    },
+    { "name": "Lateral", "children": [] },
+    { "name": "Lateral_Dynamic", "children": [] },
+    { "name": "Lateral_Static", "children": [] },
+    {
+      "name": "Lean",
+      "children": [
+        { "name": "Lean_Dynamic", "children": [] },
+        { "name": "Lean_Static", "children": [] }
+      ]
+    },
+    {
+      "name": "Lever",
+      "children": [
+        { "name": "ArmLever", "children": [] },
+        { "name": "LegLever", "children": [] },
+        { "name": "BodyLever", "children": [] }
+      ]
+    },
+    {
+      "name": "Light",
+      "children": [
+        { "name": "Light_Dynamic", "children": [] },
+        { "name": "Light_Static", "children": [] }
+      ]
+    },
+    {
+      "name": "Lock",
+      "children": [
+        { "name": "ArmLock", "children": [] },
+        { "name": "LegLock", "children": [] },
+        { "name": "FingerLock", "children": [] },
+        { "name": "BodyLock", "children": [] }
+      ]
+    },
+    { "name": "Mantle", "children": [] },
+    {
+      "name": "Match",
+      "children": [
+        { "name": "Match_Dynamic", "children": [] },
+        { "name": "Match_Static", "children": [] },
+        { "name": "HandMatch", "children": [] },
+        { "name": "FootMatch", "children": [] },
+        { "name": "HandFootFootMatch", "children": [] },
+        { "name": "HandHandFootMatch", "children": [] },
+        { "name": "HandHandFootFootMatch", "children": [] }
+      ]
+    },
+    { "name": "Medial", "children": [] },
+    {
+      "name": "Nudge",
+      "children": [
+        { "name": "Nudge_Dynamic", "children": [] },
+        { "name": "Nudge_Static", "children": [] },
+        { "name": "FootNudge", "children": [] },
+        { "name": "HandNudge", "children": [] },
+        { "name": "FingerNudge", "children": [] },
+        { "name": "HipNudge", "children": [] }
+      ]
+    },
+    {
+      "name": "OptimizeFriction",
+      "children": [
+        { "name": "OptimizeToPerpendicular", "children": [] },
+        { "name": "OptimizeToParallel", "children": [] },
+        { "name": "OptimizeFriction_Dynamic", "children": [] },
+        { "name": "OptimizeFriction_Static", "children": [] }
+      ]
+    },
+    {
+      "name": "Overlap",
+      "children": [
+        { "name": "FootOverlap", "children": [] },
+        { "name": "HandOverlap", "children": [] },
+        {
+          "name": "FingerOverlap",
+          "children": [
+            { "name": "2FingerOverlap", "children": [] },
+            { "name": "3FingerOverlap", "children": [] },
+            { "name": "4FingerOverlap", "children": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Passive",
+      "children": [
+        { "name": "Passive_Dynamic", "children": [] },
+        { "name": "Passive_Static", "children": [] }
+      ]
+    },
+    {
+      "name": "Pinch",
+      "children": [
+        { "name": "ThumbPinch", "children": [] },
+        { "name": "CrimpPinch", "children": [] }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "children": [
+        { "name": "FingerPivot", "children": [] },
+        { "name": "PalmPivot", "children": [] },
+        {
+          "name": "FootPivot",
+          "children": [
+            { "name": "HeelPivot", "children": [] },
+            { "name": "ToePivot", "children": [] }
+          ]
+        },
+        { "name": "HipPivot", "children": [] },
+        { "name": "KneePivot", "children": [] },
+        { "name": "HeadPivot", "children": [] }
+      ]
+    },
+    { "name": "Positioning", "children": [] },
+    { "name": "Positioning_Dynamic", "children": [] },
+    { "name": "Positioning_Static", "children": [] },
+    {
+      "name": "Posture",
+      "children": [
+        { "name": "Posture_Dynamic", "children": [] },
+        { "name": "Posture_Static", "children": [] }
+      ]
+    },
+    {
+      "name": "Precise",
+      "children": [
+        { "name": "Precise_Dynamic", "children": [] },
+        { "name": "Precise_Static", "children": [] }
+      ]
+    },
+    { "name": "ProjectileMotion", "children": [] },
+    { "name": "ProjectileMotion_Dynamic", "children": [] },
+    {
+      "name": "Prop",
+      "children": [
+        {
+          "name": "LegProp",
+          "children": [{ "name": "2_LegProp", "children": [] }]
+        },
+        {
+          "name": "ArmProp",
+          "children": [{ "name": "2_ArmProp", "children": [] }]
+        },
+        {
+          "name": "FingerProp",
+          "children": [{ "name": "2_FingerProp", "children": [] }]
+        }
       ]
     }
   ]
