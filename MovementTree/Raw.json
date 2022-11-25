@@ -26,7 +26,7 @@
 {"name":  "Subtle", "children": [
   {"name":  "Subtle_Dynamic", "children": []},
   {"name":  "Subtle_Static", "children": []}]},
-,
+
 {"name":  "Swing", "children": []},
   {"name":  "ArmSwing", "children": []},
     {"name":  "ArmBackSwing", "children": []},
